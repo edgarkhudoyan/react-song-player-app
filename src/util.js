@@ -12,11 +12,10 @@ const ChillHop = () => {
       id: uuidv4(),
     },
     {
-      name: 'Typical Midnight',
-      cover:
-        'https://chillhop.com/wp-content/uploads/2022/02/6b1cd792e2d88c65108a3c3b7ed48407b6f65bf8-1024x1024.jpg',
-      artist: 'C Y G N',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=31516',
+      name: 'Santiago',
+      cover: 'https://i.scdn.co/image/ab67616d0000b273832ae84efad350c58132a1ad',
+      artist: 'Psalm Trees, Moods',
+      audio: 'https://mp3.chillhop.com/serve.php/?mp3=30202',
       color: ['#205950', '#2ab3bf'],
       active: false,
       id: uuidv4(),
