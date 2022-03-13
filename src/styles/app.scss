@@ -1,5 +1,6 @@
 @import './song';
 @import './player';
+@import './library';
 
 * {
   margin: 0;
@@ -11,4 +12,14 @@ h1,
 h2,
 h3 {
   color: #333;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
 }
