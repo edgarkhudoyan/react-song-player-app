@@ -7,7 +7,7 @@ import Nav from './components/Nav';
 // Import Styles
 import './styles/app.scss';
 // Import Util
-import data from './util';
+import data from './data';
 
 const App = () => {
   // Use Ref
