@@ -21,25 +21,22 @@ const Player = ({
 }) => {
   // UseEffect
   useEffect(() => {
-    const newSongs = songs.map(
-      (song) => {
-        if (song.id === currentSong.id) {
-          return {
-            ...song,
-            active: true,
-          };
-        } else {
-          return {
-            ...song,
-            active: false,
-          };
-        }
-      },
-      [currentSong]
-    );
+    const newSongs = songs.map((song) => {
+      if (song.id === currentSong.id) {
+        return {
+          ...song,
+          active: true,
+        };
+      } else {
+        return {
+          ...song,
+          active: false,
+        };
+      }
+    });
 
     setSongs(newSongs);
-  });
+  }, [currentSong]);
 
   // Event Handlers
   const playSongHandler = () => {
